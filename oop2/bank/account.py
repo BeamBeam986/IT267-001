@@ -1,5 +1,3 @@
-import numbers
-import re
 from select import select
 from tokenize import Number
 from unicodedata import name
