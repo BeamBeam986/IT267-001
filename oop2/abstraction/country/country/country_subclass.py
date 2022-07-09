@@ -1,5 +1,5 @@
 #country_subclass.py
-from countryabstract import Country
+from countrystract import Country
 
 class Europe(Country):
     def __init__(self, name, pop) -> None:
