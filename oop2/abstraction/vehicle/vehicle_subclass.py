@@ -12,7 +12,7 @@ class Car(Vehicle):
     @year.setter
     def year(self,value):
         self.__year = value
-    
+
     @property #maintanance
     def maintanance(self):
         return self.__maintanance
