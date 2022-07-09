@@ -1,6 +1,5 @@
-class Diagram:
-    digram = "Student"
-    def __inpuit___(self,id:str,name:str,majoy:str):
+class Student:
+    def __init__(self,id:str,name:str,majoy:str = "IT"):
         self.id = id
         self.name = name
         self.majoy = majoy
@@ -15,7 +14,11 @@ class Diagram:
         print("obj Destroyed")
 
 if __name__ == "__main__":
-    #create jassica , john
-    jessica = Student ("111","jesica","IT")
-    jon = Student("112","Jon","MKT")
-       
+    jessica = Student('111','Jessica','IT')
+    jessica.display_detail()
+
+    John = Student('112','John','MKT')
+    John.display_detail()
+
+    amy = Student("113","Amy")
+    amy.display_detail()
