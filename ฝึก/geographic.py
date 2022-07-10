@@ -1,7 +1,3 @@
-from cmath import polar
-from time import timezone
-
-
 class Geographic:
     def setcordinate(self,latitude,longitude):
         self.latitude =latitude
